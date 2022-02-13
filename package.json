@@ -1,0 +1,25 @@
+{
+  "name": "cross-platform-dapp-wallet-connector",
+  "version": "1.0.0",
+  "description": "A DApp Wallet Connection Module with Support for all Major Wallet Providers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AfroApes/Cross-Platform-DApp-Wallet-Connector.git"
+  },
+  "keywords": [],
+  "author": "AfroApes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AfroApes/Cross-Platform-DApp-Wallet-Connector/issues"
+  },
+  "homepage": "https://github.com/AfroApes/Cross-Platform-DApp-Wallet-Connector#readme",
+  "dependencies": {
+    "@walletconnect/web3-provider": "^1.7.1",
+    "dotenv": "^16.0.0",
+    "web3": "^1.7.0"
+  }
+}
