@@ -4,7 +4,8 @@
   "description": "A DApp Wallet Connection Module with Support for all Major Wallet Providers",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "cz"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,14 @@
   "homepage": "https://github.com/AfroApes/Cross-Platform-DApp-Wallet-Connector#readme",
   "dependencies": {
     "@walletconnect/web3-provider": "^1.7.1",
+    "commitizen": "^4.2.4",
+    "cz-emoji": "^1.3.1",
     "dotenv": "^16.0.0",
     "web3": "^1.7.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-emoji"
+    }
   }
 }
